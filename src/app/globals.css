@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f7f3ea;
+  --paper: #f3f7ff;
   --mist: #edf4fb;
-  --navy: #1c314e;
-  --blue: #1c5fa8;
-  --gold: #f7b940;
-  --orange: #f58a2c;
-  --ink: #13253d;
+  --navy: #0f1f3d;
+  --blue: #1a40b8;
+  --gold: #7ab4f5;
+  --orange: #cc2020;
+  --ink: #111111;
 }
 
 @theme inline {
