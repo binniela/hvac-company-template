@@ -235,7 +235,7 @@ export default function Home() {
         </div>
 
         <aside className="lead-card">
-          <div className="rounded-[26px] bg-[var(--navy)] px-6 py-5 text-white">
+          <div className="rounded-[26px] bg-[var(--blue)] px-6 py-5 text-white">
             <p className="text-sm font-semibold tracking-[0.24em] text-[var(--gold)] uppercase">
               Request service
             </p>
