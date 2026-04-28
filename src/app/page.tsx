@@ -2,15 +2,15 @@ import Image from "next/image";
 import { FaqAccordion } from "@/components/faq-accordion";
 
 const site = {
-  company: "Your Company Name",
-  phone: "(424) 252-1198",
-  serviceArea: "Greater Metro Area",
-  founded: "1986",
-  heroTitle: "PROUDLY SERVING YOUR AREA SINCE 1986",
-  heroSubtitle: "Your Area's Premier Heating & Air Conditioning Company",
-  aboutTitle: "Heating and Air Conditioning in Your City and Surrounding Areas",
+  company: "Air Temp Air Conditioning And Heating",
+  phone: "(909) 957-3938",
+  serviceArea: "Ontario, CA",
+  founded: "1999",
+  heroTitle: "PROUDLY SERVING ONTARIO SINCE 1999",
+  heroSubtitle: "The Inland Empire's Trusted Family-Owned Heating & Air Conditioning Company",
+  aboutTitle: "Heating and Air Conditioning in Ontario and Surrounding Areas",
   aboutBody:
-    "This section keeps the request-service form in the second block, while the landing page hero stays focused on navigation, social proof, and calls to action just like the reference layout.",
+    "Air Temp Air Conditioning And Heating has been serving the Ontario area for over 25 years. We are a family-owned business where much of the family works for the company. Ray, the owner, uses his extensive experience to provide quality work for every customer — and passes that knowledge on to every member of his team.",
 };
 
 const ratingBadges = [
@@ -23,121 +23,123 @@ const serviceHighlights = [
   {
     title: "Air Conditioning",
     description:
-      "Repairs, tune-ups, replacements, ductless systems, and thermostat upgrades.",
-    items: ["AC Repair", "AC Maintenance", "System Replacement"],
+      "From emergency repairs to full system replacements, our team diagnoses and fixes AC problems fast — keeping your home cool when it matters most.",
+    items: ["AC Repair", "AC Replacement", "New System Installation"],
   },
   {
     title: "Heating",
     description:
-      "Reliable furnace and heat pump service designed for fast diagnosis and clear options.",
-    items: ["Heater Repair", "Heat Pumps", "Heating Installation"],
+      "Reliable furnace and heating service you can count on. We handle everything from quick repairs to complete heating system upgrades.",
+    items: ["Heater Repair", "Heating Installation", "Furnace Service"],
   },
   {
-    title: "Indoor Air Quality",
+    title: "HVAC Installation",
     description:
-      "Whole-home solutions that help homeowners breathe easier and protect equipment.",
-    items: ["Air Purification", "Filtration", "Humidity Control"],
+      "New construction or full system replacement — our organized, knowledgeable crew walks you through the entire process from start to finish.",
+    items: ["New System Installation", "Duct Work", "Thermostat Upgrades"],
   },
 ];
 
 const trustPoints = [
-  "Fast service scheduling",
-  "Highly rated customer experience",
-  "Local-company positioning that feels established",
-  "Ready for CRM form embeds and city-page SEO expansion",
+  "Family-owned and operated for over 25 years",
+  "Owner Ray personally oversees quality on every job",
+  "Serving homeowners, rental properties, and multi-unit buildings",
+  "Honest pricing with no surprise charges",
 ];
 
 const quickOffers = [
-  "24/7 emergency service",
-  "Flexible financing available",
-  "All brands serviced",
-  "Licensed and insured team",
+  "25+ years experience",
+  "Residential & commercial",
+  "Licensed #B51912",
+  "Accepts credit cards",
 ];
 
 const audiencePaths = [
   {
     title: "Homeowners",
-    description: "Repair, replacement, maintenance, and indoor comfort help.",
+    description: "Fast, honest AC and heating repair, maintenance, and replacement for your home.",
   },
   {
     title: "Property Managers",
-    description: "Reliable scheduling, preventative service, and multi-unit support.",
+    description: "Reliable scheduling and responsive emergency repairs for rental properties and multi-unit buildings.",
   },
   {
-    title: "Commercial Clients",
-    description: "Downtime reduction, rooftop systems, and recurring maintenance.",
+    title: "New Installations",
+    description: "Complete system installs with new vents and ductwork — done cleanly and professionally.",
   },
 ];
 
 const faqTeasers = [
   {
-    question: "Do you offer same-day HVAC service?",
+    question: "How long has Air Temp been in business?",
     answer:
-      "Yes. Same-day availability depends on schedule capacity and your service area, but urgent repair requests are prioritized whenever possible.",
+      "Air Temp Air Conditioning And Heating has been in business for over 25 years, serving the Ontario, CA area and the surrounding Inland Empire communities.",
   },
   {
-    question: "Can I finance a replacement system?",
+    question: "Do you service all AC and heating brands?",
     answer:
-      "Many HVAC companies offer financing for replacements and larger installs. This section is ready for your lender, monthly payment examples, and approval path.",
+      "Yes. Our experienced technicians are trained to service, repair, and replace all major HVAC brands — whether your system is brand new or several decades old.",
   },
   {
-    question: "Do you service all brands and older equipment?",
+    question: "Can you handle both repairs and full replacements?",
     answer:
-      "Yes. The template assumes all-brand service messaging, including diagnostics, repairs, and replacement guidance for aging systems.",
+      "Absolutely. We handle everything from emergency same-day repairs to complete system replacements including new ductwork and vents. Ray will walk you through all your options clearly.",
   },
   {
-    question: "Should I repair or replace my current system?",
+    question: "Do you work with property managers and rental properties?",
     answer:
-      "That usually depends on age, efficiency, repair frequency, and the cost of the current issue. A strong HVAC site should help users understand that decision clearly.",
+      "Yes — we work with many property managers throughout the Ontario area, providing reliable scheduling and responsive service for rental properties and multi-unit buildings.",
   },
 ];
 
 const trustBandItems = [
   {
-    title: "Local trust",
-    body: "Serving Greater Metro Area since 1986 with dependable neighborhood coverage.",
+    title: "25 Years Local",
+    body: "Serving Ontario and the Inland Empire since 1999 — a name neighbors trust and recommend.",
   },
   {
-    title: "Booking access",
-    body: "Fast request form, direct phone path, and simple next steps for urgent service.",
+    title: "Family Team",
+    body: "Ray and his family crew bring personal accountability to every job, big or small.",
   },
   {
-    title: "Guarantees",
-    body: "Clear communication, reliable scheduling expectations, and no-surprise service flow.",
+    title: "Honest Pricing",
+    body: "Clear upfront quotes, no hidden fees, and options that fit your budget.",
   },
   {
-    title: "Review proof",
-    body: "Google, Facebook, and Yelp trust signals visible right where visitors need them.",
+    title: "Proven Reviews",
+    body: "4.5 stars on Yelp with customers praising professionalism, speed, and fair prices.",
   },
 ];
 
 const testimonials = [
   {
-    name: "Melissa R.",
+    name: "Jonathan A. — Duarte, CA",
     quote:
-      "This version feels much closer to a real HVAC homepage. The hero immediately reads like a local service company site.",
+      "Ray, Jason and family are amazing! Honest, quality work and always on time. I have been working with Ray for my rental properties, most recently our home where they installed a new system and vents. Don't hesitate to call Ray, you won't be disappointed!",
   },
   {
-    name: "Adrian T.",
+    name: "Dennis P. — Ontario, CA",
     quote:
-      "The rating badges and full-photo hero make the page feel way more aligned with the reference.",
+      "Ray and his crew came out within one day and installed a new system for a very reasonable price. Very professional. Very neat. Cleaned up after themselves. I have referred them to friends and family.",
   },
   {
-    name: "Naomi C.",
+    name: "Tala A. — Upland, CA",
     quote:
-      "Having the form in the second section works better. The hero now stays cleaner and more convincing.",
+      "Ray and his team are always professional, and friendly. Reliable and honest. Never heard a bad thing about the jobs we have sent him. Thanks Ray!",
   },
 ];
 
 const areas = [
-  "Downtown",
-  "North Hills",
-  "Westside",
-  "South Bay",
-  "Pasadena",
-  "Glendale",
-  "Burbank",
-  "Santa Monica",
+  "Ontario",
+  "Rancho Cucamonga",
+  "Upland",
+  "Fontana",
+  "Chino",
+  "Chino Hills",
+  "Pomona",
+  "Montclair",
+  "Rialto",
+  "San Bernardino",
 ];
 
 export default function Home() {
@@ -145,35 +147,31 @@ export default function Home() {
     <main className="min-h-screen bg-[var(--paper)] text-[var(--ink)]">
       <section className="hero-shell">
         <header className="hero-nav-bar">
-          <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-6 py-4 md:px-10 md:flex-row md:items-center md:justify-between">
-            <div className="flex items-center gap-4">
-              <div className="logo-mark">SA</div>
-              <div>
-                <p className="text-sm font-semibold tracking-[0.32em] text-white uppercase">
-                  {site.company}
-                </p>
-                <p className="mt-1 max-w-xl text-sm text-white/64">
-                  Heating, cooling, indoor air quality, and maintenance plans.
-                </p>
-              </div>
+          <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-3 md:px-10 md:grid md:grid-cols-[auto_1fr_auto] md:gap-4">
+            <div className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Air Temp Air Conditioning And Heating"
+                width={200}
+                height={90}
+                className="h-12 w-auto md:h-14"
+                priority
+              />
             </div>
-            <nav className="flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-white/84">
-              <a href="#services" className="nav-link">
-                Services
+            <nav className="hidden md:flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-[var(--navy)]">
+              <a href="#services" className="nav-link-dark">Services</a>
+              <a href="#reviews" className="nav-link-dark">Reviews</a>
+              <a href="#areas" className="nav-link-dark">Service Area</a>
+            </nav>
+            <div className="flex items-center gap-2 md:gap-3">
+              <a href={`tel:${site.phone}`} className="nav-link nav-link-phone-btn whitespace-nowrap text-xs md:text-sm">
+                <span className="hidden sm:inline">{site.phone}</span>
+                <span className="sm:hidden">Call Us</span>
               </a>
-              <a href="#reviews" className="nav-link">
-                Reviews
-              </a>
-              <a href="#areas" className="nav-link">
-                Service Area
-              </a>
-              <a href={`tel:${site.phone}`} className="nav-link nav-phone">
-                {site.phone}
-              </a>
-              <a href="#request-service" className="nav-link nav-link-accent">
+              <a href="#request-service" className="nav-link nav-link-accent whitespace-nowrap text-xs md:text-sm hidden sm:inline-flex">
                 Request Service
               </a>
-            </nav>
+            </div>
           </div>
         </header>
 
@@ -195,7 +193,7 @@ export default function Home() {
               </div>
 
               <p className="hero-kicker">
-                {site.company} Heating & Air Conditioning
+                {site.company}
               </p>
               <h1 className="hero-title">{site.heroTitle}</h1>
               <p className="hero-subtitle">{site.heroSubtitle}</p>
@@ -205,7 +203,7 @@ export default function Home() {
       </section>
 
       <section className="offer-strip">
-        <div className="mx-auto grid w-full max-w-7xl gap-3 px-6 py-5 md:px-10 lg:grid-cols-4">
+        <div className="mx-auto grid w-full max-w-7xl gap-3 px-6 py-5 md:px-10 grid-cols-2 lg:grid-cols-4">
           {quickOffers.map((offer) => (
             <div key={offer} className="offer-pill">
               {offer}
@@ -223,9 +221,7 @@ export default function Home() {
           <h2 className="section-title">{site.aboutTitle}</h2>
           <p className="copy mt-5">{site.aboutBody}</p>
           <p className="copy mt-4">
-            Use this block for company history, awards, carrier or manufacturer
-            partnerships, and the type of trust-building copy that appears right
-            below the hero on the source site.
+            Whether you need an emergency AC repair in the middle of a heat wave or a complete new system with ductwork, Ray&apos;s team delivers quality work at honest prices — the same way they have for over two decades.
           </p>
 
           <div className="proof-list">
@@ -247,8 +243,8 @@ export default function Home() {
               Schedule an estimate or service visit
             </h2>
             <p className="mt-3 text-sm leading-7 text-white/76">
-              The form stays here in the second section, exactly where you asked
-              for it.
+              Fill out the form and Ray&apos;s team will get back to you promptly. For urgent service, call{" "}
+              <a href="tel:9099573938" className="font-bold text-[var(--gold)]">(909) 957-3938</a>.
             </p>
           </div>
           <form className="mt-5 grid gap-3">
@@ -258,8 +254,9 @@ export default function Home() {
             <select className="field" defaultValue="AC repair">
               <option>AC repair</option>
               <option>Heating service</option>
-              <option>Maintenance plan</option>
               <option>System replacement</option>
+              <option>New installation</option>
+              <option>Other</option>
             </select>
             <textarea
               className="field min-h-28 resize-none"
@@ -288,12 +285,10 @@ export default function Home() {
           <div>
             <p className="eyebrow text-[var(--blue)]">Who we serve</p>
             <h2 className="section-title max-w-2xl text-[var(--navy)]">
-              Clear paths for different HVAC buyers
+              HVAC service for every situation
             </h2>
             <p className="copy mt-4 max-w-2xl">
-              The PDF emphasized that strong HVAC sites should not force every
-              visitor through one generic path. This keeps the homepage useful
-              for residential, property-management, and commercial intent.
+              Whether you&apos;re a homeowner dealing with a broken AC, a property manager with multiple units, or planning a brand new installation — Ray&apos;s team has the experience to handle it right.
             </p>
           </div>
         </div>
@@ -301,7 +296,7 @@ export default function Home() {
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {audiencePaths.map((path) => (
             <article key={path.title} className="audience-card">
-              <p className="eyebrow text-[var(--blue)]">Path</p>
+              <p className="eyebrow text-[var(--blue)]">We serve</p>
               <h3 className="mt-4 text-3xl font-semibold tracking-[-0.03em] text-[var(--navy)]">
                 {path.title}
               </h3>
@@ -322,13 +317,10 @@ export default function Home() {
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
             <div>
               <h2 className="section-title max-w-2xl text-[var(--navy)]">
-                Heating & Air Conditioning Services
+                Heating &amp; Air Conditioning Services
               </h2>
               <p className="copy mt-4 max-w-2xl">
-                Our team of professional heating and air conditioning
-                specialists are here for you. From AC repair and replacement to
-                new system installation, this layout is ready for the same
-                service hierarchy used by established HVAC companies.
+                From a quick repair to a full system replacement with new vents and ductwork, Air Temp handles it all. Ray walks every customer through the process from start to finish so there are never any surprises.
               </p>
             </div>
             <a href="#request-service" className="inline-link">
@@ -363,11 +355,10 @@ export default function Home() {
         <div className="mx-auto w-full max-w-7xl px-6 py-18 md:px-10">
           <p className="eyebrow text-white/72">Ratings and reviews</p>
           <h2 className="section-title max-w-2xl text-white">
-            Check Out Our 5-Star Reviews
+            What Our Customers Say
           </h2>
           <p className="mt-4 max-w-2xl text-lg leading-8 text-white/74">
-            Highly rated for accurate repairs, great customer service, and
-            professionalism.
+            4.5 stars on Yelp. Customers consistently praise Ray and his team for professionalism, honest pricing, and fast response times.
           </p>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
@@ -375,7 +366,7 @@ export default function Home() {
               <article key={review.name} className="review-card">
                 <div className="review-stars">★★★★★</div>
                 <p className="text-base leading-8 text-slate-700">
-                  “{review.quote}”
+                  &ldquo;{review.quote}&rdquo;
                 </p>
                 <p className="mt-6 font-semibold text-[var(--navy)]">
                   {review.name}
@@ -393,11 +384,14 @@ export default function Home() {
               Common questions before booking
             </h2>
             <p className="copy mt-4 max-w-xl">
-              The PDF called out FAQ content as helpful for users and
-              conversion, even without relying on rich results.
+              Have a question about your AC or heating system? Give us a call at{" "}
+              <a href="tel:9099573938" className="font-bold text-[var(--blue)]">
+                (909) 957-3938
+              </a>{" "}
+              or fill out the request form above.
             </p>
             <a href="#request-service" className="inline-link mt-6 inline-flex">
-              Ask a question
+              Request service
             </a>
           </div>
 
@@ -410,15 +404,29 @@ export default function Home() {
           <div>
             <p className="eyebrow text-[var(--blue)]">Service area</p>
             <h2 className="section-title max-w-xl text-[var(--navy)]">
-              Serving Greater Metro Area and the Surrounding Communities
+              Serving Ontario and the Inland Empire
             </h2>
             <p className="copy mt-4 max-w-xl">
-              This section is modeled after the city coverage pattern used on
-              leading HVAC sites and works especially well when paired with
-              individual city landing pages.
+              Based in Ontario, CA, Air Temp serves homeowners and property managers throughout San Bernardino County and surrounding communities. Call us to confirm your area.
             </p>
+            <div className="mt-5 flex flex-col gap-2 text-sm text-slate-600">
+              <p>
+                <span className="font-semibold text-[var(--navy)]">Address:</span>{" "}
+                2124 S Grove Ave, Ste B, Ontario, CA 91761
+              </p>
+              <p>
+                <span className="font-semibold text-[var(--navy)]">Hours:</span>{" "}
+                Mon–Fri 8:00 AM–6:00 PM · Sat 8:00 AM–3:00 PM · Sun Closed
+              </p>
+              <p>
+                <span className="font-semibold text-[var(--navy)]">Phone:</span>{" "}
+                <a href="tel:9099573938" className="font-semibold text-[var(--blue)]">
+                  (909) 957-3938
+                </a>
+              </p>
+            </div>
             <a href="#request-service" className="inline-link mt-6 inline-flex">
-              View service area
+              Request service
             </a>
           </div>
           <div className="area-list">
@@ -439,12 +447,18 @@ export default function Home() {
             Schedule Your Service Today
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-white/76">
-            We aren&apos;t comfortable until you are! To get started, give us a
-            call at {site.phone} or book online.
+            We aren&apos;t comfortable until you are! To get started, give us a call at{" "}
+            <a href="tel:9099573938" className="font-bold text-[var(--gold)]">
+              (909) 957-3938
+            </a>{" "}
+            or book online below.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <a href="#request-service" className="cta-primary">
               Request Service
+            </a>
+            <a href="tel:9099573938" className="cta-secondary">
+              Call (909) 957-3938
             </a>
           </div>
         </div>

@@ -14,9 +14,9 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "HVAC Company Template",
+  title: "Air Temp Air Conditioning And Heating | Ontario, CA",
   description:
-    "Reusable Next.js HVAC homepage template inspired by premium local heating and air company sites.",
+    "Family-owned HVAC company serving Ontario, CA and the Inland Empire for 25 years. AC repair, heating service, and new system installation. Call (909) 957-3938.",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${barlowCondensed.variable} h-full antialiased`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full" suppressHydrationWarning>{children}</body>
     </html>
   );
 }
