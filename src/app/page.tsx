@@ -236,7 +236,7 @@ export default function Home() {
 
         <aside className="lead-card">
           <div className="rounded-[26px] bg-[var(--blue)] px-6 py-5 text-white">
-            <p className="text-sm font-semibold tracking-[0.24em] text-[var(--gold)] uppercase">
+            <p className="text-sm font-semibold tracking-[0.24em] text-white uppercase">
               Request service
             </p>
             <h2 className="mt-3 text-3xl leading-tight font-semibold tracking-[-0.03em]">
@@ -442,7 +442,7 @@ export default function Home() {
 
       <section className="w-full bg-[var(--navy)] px-6 py-16 text-center text-white md:px-10 md:py-20">
         <div className="mx-auto w-full max-w-5xl">
-          <p className="eyebrow text-[var(--gold)]">We Are Here For You</p>
+          <p className="eyebrow text-white">We Are Here For You</p>
           <h2 className="mx-auto mt-3 max-w-3xl text-4xl leading-tight font-semibold tracking-[-0.04em] md:text-6xl">
             Schedule Your Service Today
           </h2>
