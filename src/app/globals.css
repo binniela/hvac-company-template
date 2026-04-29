@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f3f7ff;
+  --paper: #f5f8ff;
   --mist: #edf4fb;
-  --navy: #0f1f3d;
-  --blue: #1a40b8;
-  --gold: #7ab4f5;
-  --orange: #cc2020;
+  --navy: #0e2050;
+  --blue: #1a3a8c;
+  --gold: #ffffff;
+  --red: #cc1f1f;
+  --orange: #cc1f1f;
   --ink: #111111;
 }
 
@@ -26,9 +27,7 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.88), transparent 32%),
-    linear-gradient(180deg, #fbf7ef 0%, #f7f3ea 100%);
+  background: #ffffff;
   color: var(--ink);
   font-family: var(--font-manrope), sans-serif;
 }
@@ -51,14 +50,13 @@ textarea {
   position: relative;
   overflow: hidden;
   min-height: 100vh;
-  background:
-    linear-gradient(rgba(18, 42, 75, 0.68), rgba(18, 42, 75, 0.72)),
-    radial-gradient(circle at 14% 18%, rgba(247, 185, 64, 0.12), transparent 18%),
-    radial-gradient(circle at 88% 14%, rgba(140, 198, 255, 0.1), transparent 18%),
+  background-image:
+    linear-gradient(rgba(14, 32, 80, 0.72), rgba(14, 32, 80, 0.76)),
     url("/hvac-hero.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #0e2050;
 }
 
 .hero-shell::before,
@@ -373,7 +371,7 @@ textarea {
 }
 
 .trust-band {
-  background: linear-gradient(135deg, #122fa8 0%, #1a40b8 45%, #0f2596 100%);
+  background: linear-gradient(135deg, #0e2050 0%, #1a3a8c 45%, #0a1a40 100%);
 }
 
 .trust-band-item {
@@ -420,9 +418,9 @@ textarea {
   min-height: 12rem;
   border-radius: 22px;
   background:
-    radial-gradient(circle at 20% 20%, rgba(247, 185, 64, 0.44), transparent 22%),
-    radial-gradient(circle at 78% 24%, rgba(255, 255, 255, 0.9), transparent 20%),
-    linear-gradient(135deg, #15345e 0%, #1f5fa5 52%, #8dc5ff 100%);
+    radial-gradient(circle at 20% 20%, rgba(204, 31, 31, 0.35), transparent 28%),
+    radial-gradient(circle at 78% 24%, rgba(255, 255, 255, 0.7), transparent 20%),
+    linear-gradient(135deg, #0e2050 0%, #1a3a8c 52%, #4a7fd4 100%);
 }
 
 .service-pill {
@@ -433,8 +431,8 @@ textarea {
 
 .reviews-band {
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.12), transparent 26%),
-    linear-gradient(135deg, #122744 0%, #16365f 45%, #0e223d 100%);
+    radial-gradient(circle at top left, rgba(204, 31, 31, 0.12), transparent 26%),
+    linear-gradient(135deg, #0e2050 0%, #1a3a8c 45%, #0a1a40 100%);
 }
 
 .review-card {
